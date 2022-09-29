@@ -55,7 +55,7 @@ This is a personal project developed by Daniel Bohannon while an employee at MAN
 
 http://www.danielbohannon.com
 #>
-<#
+
 # Confirm all necessary commands are loaded and import appropriate .ps1 files in current directory if necessary.
 Write-Host "`n[*] Validating necessary commands are loaded into current PowerShell session.`n"
 
@@ -126,4 +126,3 @@ Else
     Start-Sleep -Milliseconds 500
     Write-Host "`n"
 }
-#>
